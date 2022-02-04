@@ -1,0 +1,5 @@
+const arr = [1, 2, 3];
+arr.__proto__; // array
+arr.__proto__.__proto__; // obj
+
+arr.__proto__.__proto__.__proto__; // null
